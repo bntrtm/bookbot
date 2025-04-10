@@ -7,10 +7,6 @@ def get_book_text(path):
         contents = f.read()
     return contents
 
-# gives a well-structured report to the user on the given book: Word Count, & Character Count greatest to least.
-def report():
-    pass
-
 def main():
 
     if len(sys.argv) != 2:
